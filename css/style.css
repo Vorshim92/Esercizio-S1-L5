@@ -1,0 +1,121 @@
+/* RULES */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  font-size: 1.2rem;
+  color: #393d41;
+}
+
+/* UTILITY */
+
+/* HEADER */
+header {
+  background-color: black;
+  height: 150px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 50%;
+  margin-top: 40px;
+}
+
+/* MAIN */
+h1 {
+  color: #25a2c3;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  margin-inline-start: 50px;
+  margin-inline-end: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+h2 {
+  color: #25a2c3;
+  padding-top: 15px;
+  margin-inline-start: 50px;
+  margin-inline-end: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+p,
+ul,
+ol {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-inline-start: 50px;
+  margin-inline-end: 50px;
+}
+
+main {
+  text-align: center;
+}
+
+/* SECTION */
+
+.corso {
+  background-image: url(/images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pulsante {
+  background-color: #f04c2f; /* Rosso */
+  color: #ffffff; /* Bianco */
+  padding: 10px 20px; /* Padding del pulsante */
+  text-transform: uppercase; /* Trasforma il testo in maiuscolo */
+  font-weight: bold; /* Grassetto */
+  border: 2px solid #ff0000; /* Bordo rosso */
+  border-radius: 5px; /* Border radius per angoli arrotondati */
+  cursor: pointer; /* Cambia il cursore quando si passa sopra al pulsante */
+  margin-bottom: 30px;
+}
+
+/* ARTICLE */
+
+article {
+  margin-top: 30px;
+}
+#foto1 {
+  border-radius: 50%;
+  width: 60%;
+  margin-bottom: 30px;
+}
+#red,
+#red div h2 {
+  background-color: #e51717;
+  color: white;
+}
+#red {
+  height: 250px;
+  padding-top: 25px;
+}
+
+/* FOOTER */
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+footer hr {
+  display: inline-block;
+  width: 50%;
+}
+footer h2 {
+  color: #c8e7f0;
+}
