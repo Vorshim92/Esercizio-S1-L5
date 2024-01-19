@@ -39,7 +39,7 @@ h1 {
   margin-inline-start: 50px;
   margin-inline-end: 50px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.5;
 }
 h2 {
@@ -48,7 +48,7 @@ h2 {
   margin-inline-start: 50px;
   margin-inline-end: 50px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -67,10 +67,11 @@ main {
 
 /* SECTION */
 
-.corso {
+.sect1 {
   background-image: url(/images/banner.jpg);
   background-size: cover;
   background-position: center;
+  margin-top: 0px;
 }
 
 .pulsante {
@@ -85,37 +86,53 @@ main {
   margin-bottom: 30px;
 }
 
-/* ARTICLE */
-
-article {
+section {
   margin-top: 30px;
 }
-#foto1 {
+.sect2 img {
   border-radius: 50%;
   width: 60%;
   margin-bottom: 30px;
 }
-#red,
-#red div h2 {
-  background-color: #e51717;
+#sectred,
+#sectred div h2 {
+  background-color: #f04c2f;
   color: white;
 }
-#red {
+#sectred {
   height: 250px;
   padding-top: 25px;
 }
 
+/* POST */
+.post {
+  border: 2px solid #dee1e3;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.post img {
+  max-width: 100%;
+}
+
 /* FOOTER */
 footer {
-  color: #c8e7f0;
+  color: white;
   background-color: #25a2c3;
   text-align: center;
-  font-family: "Poppins", sans-serif;
 }
+
+footer a {
+  color: white;
+}
+
 footer hr {
   display: inline-block;
   width: 50%;
 }
 footer h2 {
-  color: #c8e7f0;
+  color: white;
+}
+
+footer i {
+  padding-right: 5px;
 }
