@@ -106,7 +106,8 @@ section {
 
 /* POST */
 .post {
-  border: 2px solid #dee1e3;
+  border: 1px solid #dee1e3;
+  border-radius: 2px;
   margin-left: 25px;
   margin-right: 25px;
 }
