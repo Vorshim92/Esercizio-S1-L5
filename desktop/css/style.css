@@ -1,0 +1,157 @@
+/* RULES */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  font-size: 1.2rem;
+  color: #393d41;
+}
+
+/* UTILITY */
+
+/* HEADER */
+header {
+  background-color: black;
+  height: 150px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+/* MAIN */
+h1 {
+  color: #25a2c3;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  margin-inline-start: 50px;
+  margin-inline-end: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h2 {
+  color: #25a2c3;
+  padding-top: 15px;
+  margin-inline-start: 50px;
+  margin-inline-end: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p,
+ul,
+ol {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-inline-start: 50px;
+  margin-inline-end: 50px;
+}
+
+main {
+  text-align: center;
+}
+
+/* SECTION */
+
+.sect1 {
+  background-image: url(/images/banner.jpg);
+  background-size: cover;
+  background-position: top;
+  margin-top: 0px;
+  padding: 100px;
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+}
+.sect1 .block {
+}
+
+.pulsante {
+  background-color: #f04c2f; /* Rosso */
+  color: #ffffff; /* Bianco */
+  padding: 10px 20px; /* Padding del pulsante */
+  text-transform: uppercase; /* Trasforma il testo in maiuscolo */
+  font-weight: bold; /* Grassetto */
+  border: 2px solid #ff0000; /* Bordo rosso */
+  border-radius: 5px; /* Border radius per angoli arrotondati */
+  cursor: pointer; /* Cambia il cursore quando si passa sopra al pulsante */
+  margin-bottom: 30px;
+}
+
+section {
+  margin-top: 30px;
+}
+
+.sect2 div {
+  margin: 5rem 5rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sect2 img {
+  border-radius: 50%;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.sect2 h2,
+.sect2 p {
+  text-align: left;
+}
+
+#sectred,
+#sectred div h2 {
+  background-color: #f04c2f;
+  color: white;
+}
+#sectred {
+  height: 250px;
+  padding-top: 25px;
+}
+
+/* POST */
+.post {
+  border: 1px solid #dee1e3;
+  border-radius: 2px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.post img {
+  max-width: 100%;
+}
+
+/* FOOTER */
+footer {
+  color: white;
+  background-color: #25a2c3;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+footer hr {
+  display: inline-block;
+  width: 50%;
+}
+footer h2 {
+  color: white;
+}
+
+footer i {
+  padding-right: 5px;
+}
