@@ -70,7 +70,7 @@ main {
 .sect1 {
   background-image: url(/images/banner.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   margin-top: 0px;
   padding: 100px;
   padding-bottom: 10rem;
@@ -128,9 +128,13 @@ section {
   border-radius: 2px;
   margin-left: 25px;
   margin-right: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 350px;
 }
 .post img {
-  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* FOOTER */
@@ -146,12 +150,23 @@ footer a {
 
 footer hr {
   display: inline-block;
-  width: 50%;
+  width: 10%;
 }
 footer h2 {
   color: white;
+  font-size: 2rem;
 }
 
+footer ul {
+  margin: 0 auto;
+  width: 10%;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+footer p {
+  font-size: 0.7rem;
+}
 footer i {
   padding-right: 5px;
 }
